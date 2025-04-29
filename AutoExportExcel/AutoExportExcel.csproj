@@ -12,9 +12,7 @@
     <PackageReference Include="ClosedXML" Version="0.105.0-rc" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.20" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.4" />
-	  <None Update="Templates\report_template.xlsx">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
+
   </ItemGroup>
 
 </Project>
