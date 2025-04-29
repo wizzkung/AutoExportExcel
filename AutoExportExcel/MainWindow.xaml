@@ -1,0 +1,14 @@
+﻿<Window x:Class="AutoExportExcel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoExportExcel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="_event" Content="Открыть" HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" Height="46" Width="144" Click="_event_Click"/>
+        <DatePicker x:Name="dp" HorizontalAlignment="Center" Margin="0,91,0,0" VerticalAlignment="Top" Height="28" Width="354"/>
+
+    </Grid>
+</Window>
